@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Write Markdown in Arabic.",
   "main": "index.js",
+  "private": true,
   "dependencies": {
     "bootstrap": "^3.3.7",
     "express": "^4.15.2",
@@ -17,10 +18,13 @@
     "gulp-strip-css-comments": "^1.2.0",
     "gulp-uglify": "^2.1.2",
     "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-source-stream": "^1.1.0",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.1"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
