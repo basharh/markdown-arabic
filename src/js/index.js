@@ -1,4 +1,4 @@
-'use strict';
+require("../scss/main.scss");
 
 var markdown = require('markdown').markdown;
 
